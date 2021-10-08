@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Terror Babble 3D';
+    src: url('/TerrorBabble3D.otf');
+}
+
+.root {
+    -fx-background-color: #000000;
+}
+
+.button {
+    -fx-font-size: 70px;
+    -fx-font-family: "Terror Babble 3D";
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-text-fill: darkcyan;
+}
+
+.button:pressed {
+    -fx-stroke: yellow;
+    -fx-stroke-width: 10;
+}
+
+.label {
+    -fx-font-size: 180px;
+    -fx-font-family: "Terror Babble 3D";
+    -fx-text-fill: white;
+}
+
+
+.menu-bar {
+    -fx-background-color: transparent;
+}
+
+.menu-bar .label {
+    -fx-font-size: 45px;
+    -fx-text-fill: white;
+}
+
+.menu-bar .label:hover {
+    -fx-text-fill: darkcyan;
+}
+
+.menu {
+    -fx-background-color: transparent;
+}
+
+.menu:hover {
+    -fx-background-color: transparent;
+}
+
+.menu-item {
+    -fx-background-color: black;
+
+    -fx-text-fill: darkcyan;
+}
+
+.menu-item .label {
+    -fx-font-size: 35px;
+}
+
+.menu-button {
+    -fx-background-color: transparent;
+}
+
+.menu-button .label {
+    -fx-font-size: 60px;
+}
+
+.menu-button .label:hover {
+    -fx-text-fill: darkcyan;
+}
